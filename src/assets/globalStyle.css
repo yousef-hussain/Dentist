@@ -1,0 +1,74 @@
+.fs-header {
+  @media (max-width: 599.9px) {
+    font-size: 20px;
+  }
+  @media (min-width: 600px) and (max-width: 959.9px) {
+    font-size: 25px;
+  }
+  @media (min-width: 960px) and (max-width: 1279.9px) {
+    font-size: 35px;
+  }
+  @media (min-width: 1280px) and (max-width: 1919.9px) {
+    font-size: 42px;
+  }
+  @media (min-width: 1920px) and (max-width: 2559.9px) {
+    font-size: 54px;
+  }
+  @media (min-width: 2560px) {
+    font-size: 66px;
+  }
+}
+
+.fs-title {
+  @media (max-width: 599.9px) {
+    font-size: 16px;
+  }
+  @media (min-width: 600px) and (max-width: 959.9px) {
+    font-size: 17px;
+  }
+  @media (min-width: 960px) and (max-width: 1279.9px) {
+    font-size: 18px;
+  }
+  @media (min-width: 1280px) and (max-width: 1919.9px) {
+    font-size: 23px;
+  }
+  @media (min-width: 1920px) and (max-width: 2559.9px) {
+    font-size: 28px;
+  }
+  @media (min-width: 2560px) {
+    font-size: 35px;
+  }
+}
+
+.fs-text {
+  @media (max-width: 599.9px) {
+    font-size: 12px;
+  }
+  @media (min-width: 600px) and (max-width: 959.9px) {
+    font-size: 14px;
+  }
+  @media (min-width: 960px) and (max-width: 1279.9px) {
+    font-size: 15px;
+  }
+  @media (min-width: 1280px) and (max-width: 1919.9px) {
+    font-size: 16px;
+  }
+  @media (min-width: 1920px) and (max-width: 2559.9px) {
+    font-size: 20px;
+  }
+  @media (min-width: 2560px) {
+    font-size: 25px;
+  }
+}
+
+.v-field--prepended {
+  padding-inline-start: 0 !important;
+}
+
+.v-btn.v-btn--density-default {
+  height: calc(var(--v-btn-height) + 20px) !important;
+}
+
+.v-input--horizontal .v-input__append {
+  margin-inline-start: 0 !important;
+}
